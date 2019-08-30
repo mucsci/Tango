@@ -29,11 +29,11 @@ class Config:
     LOGLEVEL = logging.DEBUG
 
     # Courselabs directory. Must be created before starting Tango
-    COURSELABS = "/home/autolab/data/tango/submissions"
+    COURSELABS = "/home/autolab/mu-autolab/data/tango/submissions"
 
     # Directory within each courselab where Tango will copy the output
     # for jobs of that courselab
-    OUTPUT_FOLDER = "/home/autolab/data/tango/output"
+    OUTPUT_FOLDER = "output"
 
     # VMMS to use. Must be set to a VMMS implemented in vmms/ before
     # starting Tango.  Options are: "localDocker", "distDocker",
@@ -127,7 +127,7 @@ class Config:
     ######
     # Part 4: Settings for shared memory
     #
-    USE_REDIS = True
+    USE_REDIS = False
     REDIS_HOSTNAME = "127.0.0.1"
     REDIS_PORT = 6379
 
