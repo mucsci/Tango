@@ -9,7 +9,6 @@ vmms/id_rsa*
 courselabs/*
 dockerTmp/*
 # config
-config.py
 
 # Virtualenv
 .Python
